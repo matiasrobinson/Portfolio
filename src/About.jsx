@@ -31,7 +31,7 @@ const About = () => {
           Technologies
         </div>
         <div id='abt_technologies'>
-            <p>Python, SQL, NoSQL, Java, Javascript, React, React native, Django.</p>
+            <p>Python, SQL, NoSQL, Java, Javascript, React, React native, Django</p>
         </div>
       </section>
   );
