@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+.cardOne {
+    background-image: url(/proyects/PokeApiApp/images/5818392.jpg);
+    background-size: cover;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.BV {
+    margin-bottom: 2px !important;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+
+    .input-group{
+        width: 100% !important;
+    }
+}

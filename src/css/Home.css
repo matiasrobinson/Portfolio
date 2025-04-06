@@ -1,0 +1,97 @@
+section#home {
+    background-image: url(../assets/codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+#home_container {
+    display: flex;
+    justify-content: space-between; /* Separa los divs */
+    align-items: center;
+}
+
+#home_info {
+    width:35%;
+    margin-left: 5%;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#home_info_2 {
+    margin-top: 10%;
+    width:35%;
+    margin-right: 5%;
+    border-radius: 10px;
+    /*Añadimos un color con un blur*/
+    /*backdrop-filter: blur(50px);*/
+}
+
+h5 {
+    font-size: 150%;
+}
+
+h1 {
+    font-size: 350%;
+    color: aquamarine;
+}
+
+p {
+    text-align: justify;
+    margin: 0 1rem;
+}
+
+/* 📌 RESPONSIVE: Adaptar en móviles */
+@media (max-width: 768px) {
+    #home_container {
+        flex-direction: column; /* Cambia a vertical */
+        align-items: center;
+    }
+
+    #home_info {
+        width: auto;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px; /* Espaciado entre divs*/
+    }
+
+    #home_info_2 {
+        width: auto;
+        margin: 0;
+    }
+}
+
+/*
+#home {
+    background-image: url(../assets/codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#home_info {
+    text-align: start;
+    width: 50%;
+}
+
+#home_info_2 {
+    width: 50%;
+    text-align:center;
+}
+
+#home_container {
+    display: flex;
+    width:100%;
+    align-items:last baseline;
+}
+
+h5 {
+    font-size:200%;
+}
+
+h1 {
+    font-size: 350%;
+    color:aquamarine;
+}*/

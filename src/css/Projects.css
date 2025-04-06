@@ -1,0 +1,18 @@
+section#projects {
+    background-image: url(../assets/invertcodioful-formerly-gradienta-bKESVqfxass-unsplash.jpg);
+    background-size: cover;
+    width: auto;
+}
+
+.prj-info {
+    background: #282c34;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #282c34;
+}
+
+#list {
+    list-style-type: none;
+    text-align: justify;
+}
+  

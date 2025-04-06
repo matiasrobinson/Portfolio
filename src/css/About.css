@@ -1,0 +1,30 @@
+section#about {
+    background-color: black;
+    background-size:cover;
+    background-position: center ;
+    width: auto;
+}
+
+#abt_info {
+    width: 60%;
+    text-align:justify;
+}
+
+#abt_title{
+    font-size:xx-large;
+    color:aqua;
+    text-shadow: 0px 5px 5px #282c34;
+    padding: 10px;
+    width: 100%;
+}
+
+#abt_box {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+

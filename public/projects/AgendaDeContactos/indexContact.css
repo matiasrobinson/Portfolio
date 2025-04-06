@@ -1,0 +1,24 @@
+body {
+    background-image: url(/imagenes/blurry-gradient-haikei.png);
+    background-size:cover
+}
+
+.list-group {
+    word-break: break-word;
+}
+
+.list-group-item {
+    padding: 20px;
+    text-size-adjust: 10px;
+    border-radius: 10px!important;
+}
+
+nav {
+    border-radius: 10px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}

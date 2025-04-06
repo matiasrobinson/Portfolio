@@ -1,0 +1,39 @@
+/* Estilo para el header */
+header {
+    padding: 1rem;
+    text-align: center;
+    /*Sobreponremos la etiqueta para que se mueva mientras hacemos scroll en la pagina*/
+    position:fixed;
+  
+    /*Añadimos un color con un blur*/
+    background-color: rgba(0, 0, 0, 0.5);
+
+  
+    /*Establecemos un alto para que se adapte a la pantalla*/
+    height: 3rem;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+a {
+    margin: 0 1rem;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#btn_nav {
+    color: #E3EBFF;
+    padding: 10px;
+}
+
+#btn_nav:hover {
+    /*la letra cambia a color negro y se agrega una linea blanca bajo las letras*/
+    color: aqua;
+    transition: 1s ease all;
+}

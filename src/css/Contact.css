@@ -1,0 +1,15 @@
+section#contact {
+    background-image: url(../assets/isai-ramos-_3SFFsWqCVg-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+    background-color: #E7F0FF;
+    width: auto;
+}
+
+.ctc-info {
+    display: grid;
+    background: #282c34;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #282c34;
+}
