@@ -6,7 +6,11 @@ const Home = () => {
             <div id='home_container'>
                 <div id='home_info'>
                     <h5>Hello, I'm Matias Robinson</h5>
-                    <h1>Programmer Analyst</h1>
+                    <h1>Software Developer</h1>
+                    <div>
+                        <h1>&</h1>
+                    </div>
+                    <h1>System Analyst</h1>
                 </div>
                 <div id='home_info_2'>
                     <h1>Experience</h1>
